@@ -1,0 +1,156 @@
+/* HTML Stylesheet */ /* Dylan Bebbington Sheary | dylan.sheary@student.hhs.school.nz */
+
+
+/* Google Fonts Imports: */
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap'); /* use this for the song titles */
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+/* data Rooting */
+/*:root {
+    --defaultnavmargin: 15px;
+}*/ 
+
+/* Site Styles */
+    /* the 'signature' featured above the page's main title */
+.signature {
+    margin-top: 40px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    text-align: center;
+    margin-right: 235px;
+    color: white;
+    font-size: 40px;
+    line-height: 0.5;
+}
+.heading {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+a.navigation {
+    color: blue;
+    -webkit-text-stroke: 0.25px white;
+}
+a:hover {
+    -webkit-text-stroke: 0.25px white;
+    font-size: 31px;
+}
+
+.navigation {
+    margin-top: 15px;
+    font-family: 'Iceland', sans-serif;
+    text-align: center;
+    font-size: 29px;
+    color: white;
+}
+
+
+section {
+    font-family: 'Play', sans-serif;
+    color: white;
+    text-align: center;
+    opacity: 100%;
+}
+.intro {
+    margin: auto; 
+    background: rgba(0, 0, 0, 0.5); 
+    height: 95px; 
+    width: 1000px;
+    padding: 11.5px;
+    border-radius: 18.5px; 
+    text-align: center;
+/*    margin-left: 960px; */
+}
+/*.intro:hover {
+    margin: auto; 
+    background: rgba(0, 0, 0, 0.5); 
+    height: 105px; 
+    width: 1000px;
+    padding: 14.5px;
+    border-radius: 22.5px; 
+    text-align: center;    
+}*/
+
+.contactIntro {
+    margin: auto; 
+    background: rgba(0, 0, 0, 0.5); 
+    height: 655px; 
+    width: 650px;
+    padding: 11.5px;
+    border-radius: 18.5px; 
+    text-align: center;
+}
+
+.songSubtitle {
+    font-family: 'Eagle Lake', cursive;
+    font-size: 17px;
+}
+
+.strangerSection {
+    margin-top: 40px;
+    margin-left: 150px;
+    background: rgba(0, 0, 0, 0.5); 
+    height: 185px; 
+    width: 1000px;
+    padding: 11.5px;
+    border-radius: 18.5px; 
+}
+
+.starlitOdysseySection {
+    margin-top: 40px;
+    margin-left: 700px;
+    background: rgba(0, 0, 0, 0.5); 
+    height: 185px; 
+    width: 1000px;
+    padding: 11.5px;
+    border-radius: 18.5px; 
+}
+
+
+.starlitHarmonySection {
+    margin-top: 40px;
+    margin-left: 150px;
+    background: rgba(0, 0, 0, 0.5); 
+    height: 168px; 
+    width: 1000px;
+    padding: 11.5px;
+    border-radius: 18.5px; 
+}
+
+.sleepingPillsSection {
+    margin-top: 40px;
+}
+
+/* Beware those two are still linkes to StrangerSection & SLOSection */
+
+.leftAudio {
+    display: table-cell;
+    margin: 0 left;
+}
+
+.rightAudio {
+    display: table;
+    margin: 0 right;
+        float: right;
+}
+
+audio:hover {
+}
+
+footer {
+    font-family: 'Iceland', cursive;
+    font-size: 22px;
+    color: white;
+    position: fixed;
+    bottom: 2px;
+  /*  -webkit-text-stroke: 0.25px white; */
+    left: 32.5%;
+    right: 0%;
+    text-shadow: 2px 0 0 #000, -1px 0 0 #000, 0 2px 0 #000, 0 -1px 0 #000, 0.5px 0.5px #000, -0.5px -2px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
+    text-decoration: underline;     
+}

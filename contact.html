@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    
+<!--Link to external stylesheet-->
+  <link rel="stylesheet" href="styles.css">
+<!--Current Background Image-->      
+      <style>
+          body {
+           background-image: url("cartographer-1920x1080.png");">   
+          }
+      </style>
+
+      <script>
+    document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+    }, true);
+          
+          function increaseMargin() {
+              var display = document.getElementsByClassName('navigation');
+              display[0].style.marginTop = '15px'
+
+          }
+          
+          function decreaseMargin() {
+             var display = document.getElementsByClassName('navigation');
+              display[0].style.marginTop = '13px';
+
+          }
+      </script>
+    
+  <head>
+      
+<!--Metadata Info-->
+<meta name="keywords" content="HTML, CSS">
+<meta name="author" content="Dylan Patrick David Bebbington Sheary">
+      
+  <title>Dylan Sheary's Music Portfolio</title>
+      <!--rename that-->
+  </head>
+    
+    
+    <body>
+        <header>    
+            <div class="signature">
+            Dylan Sheary's
+            </div>    
+            <div class="heading">
+                ∽ MUSIC PORTFOLIO ∼
+            </div>
+            <!-- those weird looking symbols around 'music portflio' are actually just oposite facing tildes when displayed with the right font-->
+            <div class="navigation">
+                <a href="index.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">Music Index</a> - 
+                <a href="contact.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">Contact</a> - 
+                <a href="aboutme.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">About Me</a>
+            </div>
+                
+        </header>
+        
+        <br><br> <!-- I really need to replace that-->
+        <section>
+
+        <div class="contactIntro">
+            If you’d like to talk to me about my musical journey or what I’ll be working on next, use this form below and I’ll get back to you soon.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdiBkKUNK17akdF3b4eypRvXCQXCwAB0Y9HfS1eg4mESoSIeA/viewform?embedded=true" width="640" height="620" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>            </div>
+            
+
+            <br>
+        
+        
+        </section>
+        
+        <footer>
+            
+            All design elements & audio &copy; Dylan Patrick David Bebbington Sheary 2021. 
+            
+        </footer>
+        
+    </body>
+    
+</html>
