@@ -1,16 +1,19 @@
 <!doctype html>
 <html>
     
-<!--Link to external stylesheet-->
+    
+    <!--Link to external stylesheet-->
   <link rel="stylesheet" href="styles.css">
-<!--Current Background Image-->      
+    
+    
+    <!--Current Background Image, opened in CSS but in this fle for fast changes-->      
       <style>
-          body {
-              background: #1d3c7a;
-           background-image: url("skulls.png");"> 
-          }
+        body {
+        background: url("skulls.png"), repeat linear-gradient(to right, #1d3c7a, #358027);
+        }
       </style>
 
+    <!--Change code language to Javascript for the following two functions-->
       <script>
       // Pause audio elements when others are played
     document.addEventListener('play', function(e){
@@ -36,26 +39,33 @@
           }
       </script>
     
+    
   <head>
       
-<!--Metadata Info-->
+<!--Metadata info, such as coder's name-->
 <meta name="keywords" content="HTML, CSS">
 <meta name="author" content="Dylan Patrick David Bebbington Sheary">
       
-  <title>Dylan Sheary's Music Portfolio</title>
-      <!--rename that-->
-  </head>
+<!--Register site name-->
+<title>Dylan Sheary's Music Portfolio</title>
+<!--rename that?-->
+</head>
     
-    
+    <!--Begin main site content-->
     <body>
-        <header>    
+        <!--Begin Site Title display and Navigation Bar-->
+        <header>
+            
+            <!--Above the site tile itself is another title which looks like my name written in a signature-esque font-->
             <div class="signature">
             Dylan Sheary's
             </div>    
             <div class="heading">
                 ∽ MUSIC PORTFOLIO ∼
+            <!--Those weird looking symbols around 'music portflio' are actually just oposite facing tildes when displayed with the right font-->
             </div>
-            <!-- those weird looking symbols around 'music portflio' are actually just oposite facing tildes when displayed with the right font-->
+            
+            <!--Links to other parts of the site-->
             <div class="navigation">
                 <a href="index.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">Music Index</a> - 
                 <a href="contact.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">Contact</a> - 
@@ -64,55 +74,78 @@
                 
         </header>
         
+        
         <section>
-
-        <div class="intro">
+        
+            <!--A paragraph of text introducing the user to my site and its purpose-->
+            <div class="intro">
             Since I was about seven, I’ve not only played the piano but grown an understanding of what makes great music spectacular. The textures, the mastery, the inspiration it can evoke, all build towards an art form that can easily be as impactful as it is beautiful, and nothing has put that knowledge to the test better than my  attempts at composition over the past two years. 
             <br>The following four songs are the fruits of those efforts, and I take a lot of pride in each and every one of them today.
             <br>Enjoy.
-<!-- is that the final draft?-->
+            <!-- is that the final draft?-->
             </div>
             
-            <!--STRANGER-->
-            <div class="strangerSection"><div class="songSubtitle">Stranger</div>Once upon NZ’s third lockdown, I decided to put my time towards something with a little more soul than another thirty hours on some game or the homework I was actually assigned: a melody, entirely based off of a smooth, upright bass riff that plays throughout the entire piece I had come up with as an alternative take on another song’s main riff. ‘Stranger’ is the most Jazz-themed song out of my entire portfolio, even apparently particularly reminiscent to Estonian jazz. <br> Nonetheless, It’s one of the more inspiring tunes in my playlist, so enjoy seeing where it takes you.<br>
-        <div class="leftAudio"><audio controls>
+            <!--STRANGER song Paragraph, explaining its origins and displaying an aduio element to play ths song itself-->
+            <div class="strangerSection">
+            <img src="Starlit%20Odyssey%20Album%20Cover.png" style="float:left" width="200px" height="200px">
+            <div class="songSubtitle">Stranger</div>
+            Once upon NZ’s third lockdown, I decided to put my time towards something with a little more soul than another thirty hours on some game or the homework I was actually assigned: a melody, entirely based off of a smooth, upright bass riff that plays throughout the entire piece I had come up with as an alternative take on another song’s main riff. ‘Stranger’ is the most Jazz-themed song out of my entire portfolio, even apparently particularly reminiscent to Estonian jazz. <br> Nonetheless, It’s one of the more inspiring tunes in my playlist, so enjoy seeing where it takes you.<br>
+            
+            <!--Audio element linked to the filesave of STRAGNER-->
+            <div class="leftAudio"><audio controls>
             <source src="Stranger%20-%20Dylan%20Sheary.mp3" type="audio/mp3">
+            <!--Tell the user when their browser/computer is MP3 incompatable-->
+            Your browser does not support this audio file.
+            </audio></div>
             
-        Your browser does not support this audio file.
-        </audio></div>
-                </div>
+            </div>
             
-            <!--STARLIT ODYSSEY-->
-            <div class="starlitOdysseySection"><div class="songSubtitle">Starlit Odyssey</div>
-                Starlit Odyssey was the first project I began, only to spend over a year on not only mastering  the emotive effect this song heralds but learning how to use Garageband and that I had an aptitude for it. Now, it represents how I found my talents at music writing.
-                <br>
-                To this day, this piece is easily the most complicated composition I’ve ever attempted, and with themes and methods as advanced as its turned out with, (C Minor phrygian mode ending remix, to name one example) the effort was well worth it for my most classical piece to date.<br>
-        <div class="rightAudio"><audio controls>
+            <!--STARLIT ODYSSEY song Paragraph, explaining its origins and displaying an aduio element to play ths song itself-->
+
+            <div class="starlitOdysseySection">
+            <img src="Starlit%20Odyssey%20Album%20Cover.png" style="float:right" width="200px" height="200px">
+            <div class="songSubtitle">Starlit Odyssey</div>
+            Starlit Odyssey was the first project I began, only to spend over a year on not only mastering  the emotive effect this song heralds but learning how to use Garageband and that I had an aptitude for it. Now, it represents how I found my talents at music writing.
+            <br>
+            To this day, this piece is easily the most complicated composition I’ve ever attempted, and with themes and methods as advanced as its turned out with, (C Minor phrygian mode ending remix, to name one example) the effort was well worth it for my most classical piece to date.
+            
+            
+            <!--Audio element linked to the filesave of STARLIT ODYSSEY-->
+            <div class="rightAudio"><audio controls>
             <source src="Starlit%20Odyssey%20-%20Dylan%20Sheary.mp3" type="audio/mp3">
-            
-        Your browser does not support this audio file.
+            <!--Tell the user when their browser/computer is MP3 incompatable-->
+            Your browser does not support this audio file.
             </audio></div>
             </div>
             
-            <!--STARLIT HARMONY-->
-            <div class="starlitHarmonySection"><div class="songSubtitle">Starlit Harmony</div>
-                Simplicity is a tool, but never your entire potential. That idiom was more important to my progress in one track than any other: ‘Starlit Harmony’, a spiritual sequel to Starlit Odyssey with a much calmer, spacier vibe I never got to incorporate into the original. 
-                <br>Though all of this merely began with a simple rising chord harmony, played with a signature combo of mine between a Soft Bells Synth and the Grand Piano, you’re in for a few surprises with this one. 
-        <div class="leftAudio"><audio controls>
+            <!--STARLIT HARMONY song Paragraph, explaining its origins and displaying an aduio element to play ths song itself-->
+            <div class="starlitHarmonySection">
+            <img src="Starlit%20Odyssey%20Album%20Cover.png" style="float:left" width="200px" height="200px">
+            <div class="songSubtitle">Starlit Harmony</div>
+            Simplicity is a tool, but never your entire potential. That idiom was more important to my progress in one track than any other: ‘Starlit Harmony’, a spiritual sequel to Starlit Odyssey with a much calmer, spacier vibe I never got to incorporate into the original. 
+            <br>Though all of this merely began with a simple rising chord harmony, played with a signature combo of mine between a Soft Bells Synth and the Grand Piano, you’re in for a few surprises with this one.
+                
+            <!--Audio element linked to the filesave of STARLIT HARMONY-->
+            <div class="leftAudio"><audio controls>
             <source src="Starlit%20Harmony%20-%20Dylan%20Sheary.mp3" type="audio/mp3">
-            
-        Your browser does not support this audio file.
+            <!--Tell the user when their browser/computer is MP3 incompatable-->
+            Your browser does not support this audio file.
             </audio></div>
+            
             </div>
             
-            <!--SLEEPING PILLS-->
-        <div class="starlitOdysseySection"><div class="songSubtitle">Sleeping Pills</div>
-                My most recently completed project, Sleeping Pills, was created in much the same way as Starlit Harmony, by taking one simple melody aspect to use as a base for the rest of the track as it not only grew but became inspiringly thematic. In this song’s case, it was merely three notes on a harp changing keys as piano, synth bells, and a music-box-like vibraphone joined it, only for heavy strings to replace the light effect with an intense, grand vibe, turning the simple, sleepy track powerful and bold, return to its original style again.<br> Contrast is key. 
-                <br>
-        <div class="rightAudio"><audio controls>
+            <!--SLEEPING PILLS song Paragraph, explaining its origins and displaying an aduio element to play ths song itself-->
+            <div class="sleepingPillsSection">
+            <img src="Starlit%20Odyssey%20Album%20Cover.png" style="float:right" width="200px" height="200px">
+            <div class="songSubtitle">Sleeping Pills</div>
+            My most recently completed project, Sleeping Pills, was created in much the same way as Starlit Harmony, by taking one simple melody aspect to use as a base for the rest of the track as it not only grew but became inspiringly thematic. In this song’s case, it was merely three notes on a harp changing keys as piano, synth bells, and a music-box-like vibraphone joined it, only for heavy strings to replace the light effect with an intense, grand vibe, turning the simple, sleepy track powerful and bold, return to its original style again.<br> Contrast is key. 
+            <br>
+                
+            <!--Audio element linked to the filesave of SLEEPING PILLS-->
+            <div class="rightAudio"><audio controls>
             <source src="Sleeping%20Pills%20-%20Dylan%20Sheary.mp3" type="audio/mp3">
-            
-        Your browser does not support this audio file.
+            <!--Tell the user when their browser/computer is MP3 incompatable-->
+            Your browser does not support this audio file.
             </audio></div>
             </div>
             <br>
@@ -120,12 +153,14 @@
         
         </section>
         
+        
+        <!--Display the copyright owner-->
         <footer>
-            
-            All design elements & audio &copy; Dylan Patrick David Bebbington Sheary 2021. 
-            
+        All design elements & audio &copy; Dylan Patrick David Bebbington Sheary 2021. 
         </footer>
         
+        
     </body>
+    
     
 </html>
