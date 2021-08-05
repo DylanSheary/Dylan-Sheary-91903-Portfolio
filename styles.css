@@ -20,9 +20,9 @@ html {
     margin-top: 40px;
     font-family: 'Herr Von Muellerhoff', serif;
     text-align: center;
-    margin-right: 175px;
+    margin-right: 195px;
     color: white;
-    font-size: 50px;
+    font-size: 39px;
     line-height: 0.5;
 }
 /* The title dispalying 'Music Portfolio' */
@@ -100,8 +100,9 @@ section {
     font-size: 17px;
 }
 
-/*  */
-.strangerSection {
+/* The website features four paragraph divs, one for each song. Though each div has matching proportions, two are aligned to the left (Stranger and Starlit Harmony) and the other two are aligned to the right (Starlit Odyssey and Sleeping Pills). As such, whevener a paragraph section featuring the song title, its description paragraph, its cover art and its audio element call to be part of a certain div, leftAlignSection is chosen for Stranger and Starlit Harmony and rightAlignSection is chosen for Starlit Odyssey and Sleeping Pills. If I tried to refine this process any further, the margin alignment would not be included in the div class, which would bring up alignmnet problems, so though there is some repetition between the two following text paragraph sections, this is the maximum of how refined these elements may become. */
+/* A 1000 by 200 pixel half opacity rounded square, fourty pixels below any elements above it, margined to the moderatly far left of the page. */
+.leftAlignSection {
     margin-top: 40px;
     margin-left: 150px;
     background: rgba(0, 0, 0, 0.5); 
@@ -111,31 +112,8 @@ section {
     border-radius: 18.5px; 
 }
 
-/* Do I want to maximise efficiency at the cost of more divs inside of divs? Everything fell apart (litterally) last time I tried it*/
-/*  */
-.starlitOdysseySection {
-    margin-top: 40px;
-    margin-left: 700px;
-    background: rgba(0, 0, 0, 0.5); 
-    height: 200px; 
-    width: 1000px;
-    padding: 11.5px;
-    border-radius: 18.5px; 
-}
-
-/*  */
-.starlitHarmonySection {
-    margin-top: 40px;
-    margin-left: 150px;
-    background: rgba(0, 0, 0, 0.5); 
-    height: 200px; 
-    width: 1000px;
-    padding: 11.5px;
-    border-radius: 18.5px; 
-}
-
-/*  */
-.sleepingPillsSection {
+/* A 1000 by 200 pixel half opacity rounded square, fourty pixels below any elements above it, margined to the moderatly far right of the page. */
+.rightAlignSection {
     margin-top: 40px;
     margin-left: 700px;
     background: rgba(0, 0, 0, 0.5); 
@@ -146,7 +124,7 @@ section {
 }
 
 
-/*  */
+/* Text fixed to the bottom of the page with a black outline describing the copyright owner, which followers the user as they scroll.  */
 footer {
     font-family: 'Iceland', cursive;
     font-size: 22px;
