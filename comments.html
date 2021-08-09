@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    
+<!--Link to external stylesheet-->
+  <link rel="stylesheet" href="styles.css">
+<!--Current Background Image-->      
+      <style>
+          body {        
+              background: url("skulls.png"), repeat linear-gradient(to right, #1d3c7a, #358027);
+          }
+      </style>
+
+      <script>
+    document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+    }, true);
+          
+          function increaseMargin() {
+              var display = document.getElementsByClassName('navigation');
+              display[0].style.marginTop = '15px'
+
+          }
+          
+          function decreaseMargin() {
+             var display = document.getElementsByClassName('navigation');
+              display[0].style.marginTop = '13px';
+
+          }
+      </script>
+    
+  <head>
+      
+<!--Metadata Info-->
+<meta name="keywords" content="HTML, CSS">
+<meta name="author" content="Dylan Patrick David Bebbington Sheary">
+      
+  <title>Dylan Sheary's Music Portfolio</title>
+      <!--rename that-->
+  </head>
+    
+    
+    <body>
+        <header>    
+            <div class="signature">
+            Dylan Sheary's
+            </div>    
+            <div class="heading">
+                ∽ MUSIC PORTFOLIO ∼
+            <!-- those weird looking symbols around 'music portflio' are actually just oposite facing tildes when displayed with the right font-->
+            </div>
+            <div class="navigation">
+                <a href="index.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">Music Index</a> - 
+                <a href="contact.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">Contact</a> - 
+                <a href="aboutme.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">About Me</a> -
+                <a href="comments.html" class="navigation" onmouseover="decreaseMargin()" onmouseout="increaseMargin()">User Comments</a> 
+            </div>
+                
+        </header>
+        
+        <!-- The site's main content -->
+        <section>
+
+        <!-- An introduction for the user to a comment system. -->
+        <div class="commentSection">
+            <div class="songSubtitle">Comment Below!</div>Want to talk about my music or this site? Well, here's where you can discuss any of that. 
+            <!-- This fuction is shared and saved through commentBox, in accordance with their legal agreements. -->
+            <div class="commentbox"></div>
+            <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+            <!-- This is the password to link my site to the correct commentbox comment database. -->
+            <script>commentBox('5161294218919936-proj')</script>
+           </div>
+            
+
+        
+        
+        </section>
+        
+        <!--Display the copyright owner-->
+        <commentFooter>
+            
+            All design elements & audio &copy; Dylan Patrick David Bebbington Sheary 2021 & CommentBox 2021. 
+            
+        </commentFooter> 
+        
+    </body>
+    
+</html>

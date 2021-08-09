@@ -88,7 +88,18 @@ section {
     margin: auto; 
     margin-top: 35px;
     background: rgba(0, 0, 0, 0.5); 
-    height: 320px; 
+    height: 700px; 
+    width: 1000px;
+    padding: 11.5px;
+    border-radius: 18.5px; 
+}
+
+/* Unlike the other paragraph boxes of my site, this one's height is set to 'auto', meaning that it will increase in size depending on the ammount of comments entered at any time. Aside from this, it has the same features as .aboutMeIntro, such as the half opacity background or the rounded corners. */
+.commentSection {
+    margin: auto; 
+    margin-top: 35px;
+    background: rgba(0, 0, 0, 0.5); 
+    height: auto; 
     width: 1000px;
     padding: 11.5px;
     border-radius: 18.5px; 
@@ -123,7 +134,6 @@ section {
     border-radius: 18.5px; 
 }
 
-
 /* Text fixed to the bottom of the page with a black outline describing the copyright owner, which followers the user as they scroll.  */
 footer {
     font-family: 'Iceland', cursive;
@@ -135,4 +145,16 @@ footer {
     right: 0%;
     text-shadow: 2px 0 0 #000, -1px 0 0 #000, 0 2px 0 #000, 0 -1px 0 #000, 0.5px 0.5px #000, -0.5px -2px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
     text-decoration: underline;     
+}
+
+/**/
+.commentFooter {
+    font-family: 'Iceland', cursive;
+    font-size: 22px;
+    color: white;
+    position: fixed;
+    bottom: 2px;
+    margin-left: 40px; 
+    text-shadow: 2px 0 0 #000, -1px 0 0 #000, 0 2px 0 #000, 0 -1px 0 #000, 0.5px 0.5px #000, -0.5px -2px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
+    text-decoration: underline;    
 }
