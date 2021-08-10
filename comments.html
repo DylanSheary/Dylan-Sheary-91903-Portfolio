@@ -33,7 +33,7 @@
           
         window.onload = function() {
           let commentBoxes = document.querySelectorAll("comment-content");
-          Array.from(commentBoxes).foreach(function(element){
+          commentBoxes.forEach(function(element) {
             element.style.background = 'rgba(255,255,255,0.75)';
             element.style.borderRadius = '5px';
             element.style.padding = '5px';
