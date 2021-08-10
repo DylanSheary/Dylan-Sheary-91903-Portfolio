@@ -30,14 +30,15 @@
              var display = document.getElementsByClassName('navigation');
               display[0].style.marginTop = '13px';
 
-          }
-
     window.onload = function() {
-    let commentBox = document.getElementById("commentbox");
-    let myiFrame = commentBox.children[0];
-    let doc = myiFrame.contentDocument;
-    doc.body.innerHTML = doc.body.innerHTML + '<style>.comment-content{background:rgba(255,255,255,0.75);border-radius:5px;padding:5px;}</style>';
-          }
+       let commentBox = document.getElementById("commentbox");
+       alert(commentBox);
+       let myiFrame = commentBox.children[0];
+       alert(myiFrame);
+       let doc = myiFrame.contentDocument;
+       alert(doc);
+       doc.body.innerHTML = doc.body.innerHTML + '<style>.comment-content{background:rgba(255,255,255,0.75);border-radius:5px;padding:5px;}</style>';
+    }
       </script>
     
   <head>
