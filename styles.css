@@ -134,11 +134,11 @@ section {
     border-radius: 18.5px; 
 }
 
-/*.comment-content {
+.commentbox  {
     background: rgba(255,255,255,0.75);
     padding: 5px;
     border-radius: 5px;
-}*/
+}
 
 /* Text fixed to the bottom of the page with a black outline describing the copyright owner, which followers the user as they scroll.  */
 footer {
