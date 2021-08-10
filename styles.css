@@ -134,8 +134,9 @@ section {
     border-radius: 18.5px; 
 }
 
+/**/
 .commentbox  {
-    background: rgba(255,255,255,0.35);
+    background: rgba(255,255,255,0.25);
     border-radius: 18px;
 }
 
