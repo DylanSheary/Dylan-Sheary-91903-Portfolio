@@ -30,6 +30,17 @@
              var display = document.getElementsByClassName('navigation');
               display[0].style.marginTop = '13px';
           }
+          
+          function set comment (element) {
+            element.style.background = 'rgba(255,255,255,0.75)';
+            element.style.borderRadius = '5px';
+            element.style.padding = '5px';
+            }
+            window.onload = function() {
+            let commentBoxes = document.querySelectorAll("comment-content");
+            commentBoxes.foreach(set comment(currentValue));
+           }
+
       </script>
     
   <head>
