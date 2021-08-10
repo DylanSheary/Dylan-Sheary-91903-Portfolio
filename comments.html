@@ -32,6 +32,14 @@
 
           }
       </script>
+      <script>
+    window.onload = function() {
+    let commentBox = document.getElementById("commentbox");
+    let myiFrame = commentBox.children[0];
+    let doc = myiFrame.contentDocument;
+    doc.body.innerHTML = doc.body.innerHTML + '<style>.comment-content{background:rgba(255,255,255,0.75);border-radius:5px;padding:5px;}</style>';
+          }
+      </script>
     
   <head>
       
