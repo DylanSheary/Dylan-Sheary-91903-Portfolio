@@ -18,16 +18,6 @@
 
     <!--Change code language to Javascript for the following two functions-->
       <script>
-      // Pause audio elements when others are played
-    document.addEventListener('play', function(e){
-    var audios = document.getElementsByTagName('audio');
-    for(var i = 0, len = audios.length; i < len;i++){
-        if(audios[i] != e.target){
-            audios[i].pause();
-        }
-    }
-    }, true);
-          
       // Change page margening to compensate for it changing size upon increasing link font size after hovering
           function increaseMargin() {
               var display = document.getElementsByClassName('navigation');
