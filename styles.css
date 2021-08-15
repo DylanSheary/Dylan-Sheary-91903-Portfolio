@@ -136,7 +136,7 @@ section {
 
 /* A white background for the commetns section that makes it easier to read. */
 .commentbox  {
-    background: rgba(255,255,255,0);
+    background: rgba(255,255,255,0.45);
     border-radius: 18px;
 }
 
