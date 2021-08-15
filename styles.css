@@ -115,7 +115,7 @@ section {
 /* A 1000 by 200 pixel half opacity rounded square, forty pixels below any elements above it, margined to the moderately far left of the page. */
 .leftAlignSection {
     margin-top: 40px;
-    margin-left: 150px;
+    margin-left: 8%;
     background: rgba(0, 0, 0, 0.5); 
     height: 200px; 
     width: 1000px;
@@ -126,7 +126,7 @@ section {
 /* A 1000 by 200 pixel half opacity rounded square, forty pixels below any elements above it, margined to the moderately far right of the page. */
 .rightAlignSection {
     margin-top: 40px;
-    margin-left: 700px;
+    margin-left: 37%;
     background: rgba(0, 0, 0, 0.5); 
     height: 200px; 
     width: 1000px;
