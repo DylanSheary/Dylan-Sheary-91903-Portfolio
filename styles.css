@@ -151,6 +151,7 @@ footer {
     right: 0%;
     text-shadow: 2px 0 0 #000, -1px 0 0 #000, 0 2px 0 #000, 0 -1px 0 #000, 0.5px 0.5px #000, -0.5px -2px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
     text-decoration: underline;     
+    text-align: center;
 }
 
 /* Text fixed to the bottom of the page with a black outline describing the copyright owner, which followers the user as they scroll, however with different proportions to my previous footer to account for there being more text in this copyright, also describing CommnetBox's copyright */
@@ -163,5 +164,6 @@ footer {
     left: 28.5%;
     right: 0%;
     text-shadow: 2px 0 0 #000, -1px 0 0 #000, 0 2px 0 #000, 0 -1px 0 #000, 0.5px 0.5px #000, -0.5px -2px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
-    text-decoration: underline;    
+    text-decoration: underline;   
+    text-align: center;
 }
