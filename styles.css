@@ -14,6 +14,7 @@
 /* Specify that the site's elements should fit in the default chrome browser page size for effects such as background gradients */
 html {
     height: 100%;
+    overflow-x: 15px;
 }
 /* the 'signature' style title featured above the page's main title */
 .signature {
@@ -74,10 +75,24 @@ section {
 .lockdown {
     margin: auto; 
     background: rgba(0, 0, 0, 0.5); 
-    height: auto; 
+    height: 295px; 
     width: 1000px;
     padding: 11.5px;
     border-radius: 18.5px;     
+}
+
+/* Change the colour of the scrollbar to fit the site's aesthetic more */
+::-webkit-scrollbar{
+    background: #358027;
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: 0 0 10px #00000070;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 15px 15px;
+    border-radius: 10px;
 }
 
 /* Specify the appearance and propotions of a rounded, half opacity clear black background for the contact page's intro. As this div also fits a google form Iframe, it's larger yet thinner than normal. */
