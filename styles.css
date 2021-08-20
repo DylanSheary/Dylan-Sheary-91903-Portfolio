@@ -75,10 +75,11 @@ section {
 .lockdown {
     margin: auto; 
     background: rgba(0, 0, 0, 0.5); 
-    height: 295px; 
+    height: 600px; 
+    height: auto; 
     width: 1000px;
     padding: 11.5px;
-    border-radius: 18.5px;     
+    border-radius: 18.5px;
 }
 
 /* Change the colour of the scrollbar to fit the site's aesthetic more */
