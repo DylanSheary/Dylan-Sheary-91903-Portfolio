@@ -96,6 +96,10 @@ section {
     border-radius: 10px;
 }
 
+img {
+border-radius: 5px;
+}
+
 /* Specify the appearance and propotions of a rounded, half opacity clear black background for the contact page's intro. As this div also fits a google form Iframe, it's larger yet thinner than normal. */
 .contactIntro {
     margin: auto; 
