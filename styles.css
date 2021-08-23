@@ -16,7 +16,8 @@ html {
     height: 100%;
     overflow-x: 15px;
 }
-/* the 'signature' style title featured above the page's main title */
+
+/* The 'signature' style title featured above the page's main title */
 .signature {
     margin-top: 40px;
     font-family: 'Herr Von Muellerhoff', serif;
@@ -44,7 +45,6 @@ a:hover {
     -webkit-text-stroke: 0.25px white;
     font-size: 31px;
 }
-
 /* The Site's navigation center */
 .navigation {
     margin-top: 15px;
@@ -72,6 +72,8 @@ section {
     padding: 11.5px;
     border-radius: 18.5px; 
 }
+
+/* I'll delete this one soon, it's just a conveniant place to have my concept files saved and displayed. */
 .lockdown {
     margin: auto; 
     background: rgba(0, 0, 0, 0.5); 
@@ -96,7 +98,7 @@ section {
     border-radius: 10px;
 }
 
-/* */
+/* Round the corners of the cover art and about me photo to have them match the site's aesthetic more */
 img {
 border-radius: 5px;
 }
@@ -164,6 +166,7 @@ border-radius: 5px;
     border-radius: 18.5px; 
 }
 
+/* A translucent white background behind the uer comments featured on the comments page. */
 .commentbox  {
     background: rgba(255,255,255,0.5);
     border-radius: 18px;
@@ -182,7 +185,7 @@ footer {
     text-decoration: underline;     
 }
 
-/**/
+/* The proportions of the copyright display in the User Comments page are different because I also mention CommentBox's copyright, as such the alignment of the fixed text is slightly different, as seen below. Otherwise, this functions the same as described in footer {} */  */
 .commentFooter {
     font-family: 'Iceland', cursive;
     font-size: 22px;
