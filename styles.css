@@ -116,6 +116,7 @@ border-radius: 5px;
 .aboutMeIntro {
     margin: auto; 
     margin-top: 35px;
+    margin-bottom: 20px;
     background: rgba(0, 0, 0, 0.5); 
     height: 800px; 
     width: 1000px;
