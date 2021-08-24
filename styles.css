@@ -11,7 +11,8 @@
 
 /* Site Styles */
 
-/* Specify that the site's elements should fit in the default chrome browser page size for effects such as background gradients */
+/* Specify that the site's elements should fit in the default chrome browser page size for effects such as background gradients */ 
+/* Additionally, specify for the site to not shift 15px to the left if it's using a scrollbar, but rather remain as it was previously. */
 html {
     height: 100%;
     overflow-y: overlay;
