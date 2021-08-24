@@ -14,7 +14,7 @@
 /* Specify that the site's elements should fit in the default chrome browser page size for effects such as background gradients */
 html {
     height: 100%;
-    overflow-x: 15px;
+    overflow-y: overlay;
 }
 
 /* The 'signature' style title featured above the page's main title */
